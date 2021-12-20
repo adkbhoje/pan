@@ -1,7 +1,7 @@
-#pipeline{
- # agent any
-  #environment {
-   # PATH = "${PATH}:${getTerraformPath()}"
+pipeline{
+  agent any
+  environment {
+    PATH = "${PATH}:${getTerraformPath()}"
   }
   stages{
    stage('terraform init plan and apply'){
