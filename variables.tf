@@ -40,6 +40,6 @@ default     = "10.0.2.0/24"
 
 variable "amis" {
 description = "Base AMI to launch the instances"
-default = "ami-be7753db"
+default = "ami-be75ger"
 }
 
